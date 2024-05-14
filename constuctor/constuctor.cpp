@@ -27,6 +27,7 @@ void mahasiswa::SetID()
 	id = ++nim;
 }
 
+
 void mahasiswa::PrintAll()
 {
 	cout << "ID = " << id << endl;
@@ -40,6 +41,12 @@ int main()
 	mahasiswa mhs2("asroni");
 	mahasiswa mhs3("andi kurniawan");
 	mahasiswa mhs4("joko purbo");
+
+	mhs1.PrintAll();
+	mhs2.PrintAll();
+	mhs3.PrintAll();
+	mhs4.PrintAll();
+	return 0;
 }
 
 
