@@ -26,6 +26,6 @@ public:
 int mahasiswa::Nim = 0;
 void mahasiswa::setID()
 {
-	id = ++nim;
+	id = ++Nim;
 }
 
