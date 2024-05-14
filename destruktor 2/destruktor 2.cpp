@@ -31,6 +31,7 @@ angka::~angka()       // Destructor
     cout << "Alamat Array Sudah Dilepaskan" << endl;
 }
 
+
 void angka::cetakData()
 {
     for (int i = 1; i <= panjang; i++)
