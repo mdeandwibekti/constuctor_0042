@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "destuktor", "destuktor\dest
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "staticfunction", "staticfunction\staticfunction.vcxproj", "{D797B329-F7B3-49FF-AF40-8CBA518D8948}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "destruktor 2", "destruktor 2\destruktor 2.vcxproj", "{247D3A83-D26B-4ACB-8C68-2A1230142161}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{D797B329-F7B3-49FF-AF40-8CBA518D8948}.Release|x64.Build.0 = Release|x64
 		{D797B329-F7B3-49FF-AF40-8CBA518D8948}.Release|x86.ActiveCfg = Release|Win32
 		{D797B329-F7B3-49FF-AF40-8CBA518D8948}.Release|x86.Build.0 = Release|Win32
+		{247D3A83-D26B-4ACB-8C68-2A1230142161}.Debug|x64.ActiveCfg = Debug|x64
+		{247D3A83-D26B-4ACB-8C68-2A1230142161}.Debug|x64.Build.0 = Debug|x64
+		{247D3A83-D26B-4ACB-8C68-2A1230142161}.Debug|x86.ActiveCfg = Debug|Win32
+		{247D3A83-D26B-4ACB-8C68-2A1230142161}.Debug|x86.Build.0 = Debug|Win32
+		{247D3A83-D26B-4ACB-8C68-2A1230142161}.Release|x64.ActiveCfg = Release|x64
+		{247D3A83-D26B-4ACB-8C68-2A1230142161}.Release|x64.Build.0 = Release|x64
+		{247D3A83-D26B-4ACB-8C68-2A1230142161}.Release|x86.ActiveCfg = Release|Win32
+		{247D3A83-D26B-4ACB-8C68-2A1230142161}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
