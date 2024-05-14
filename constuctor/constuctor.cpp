@@ -1,5 +1,7 @@
 #include <iostream>
+#include <string>
 using namespace std;
+
 
 class mahasiswa
 {
@@ -9,12 +11,18 @@ public:
 	int id;
 	string nama;
 
-	void setid();
+	void SetID();
 
-	void printall();
+	void PrintAll();
 	mahasiswa(string pnama)
 	{
 		nama = pnama;
-		setid();
+		SetID();
 	}
 };
+
+int mahasiswa::nim = 113;
+void mahasiswa::SetID()
+{
+	id = ++nim;
+}
