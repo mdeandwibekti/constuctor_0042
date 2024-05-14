@@ -7,14 +7,13 @@ private:
     int* arr;
     int panjang;
 
-
-
 public:
     angka(int);     // Constructor
     ~angka();       // Destructor
     void cetakData();
     void isiData();
 };
+
 // Definisi member Function
 angka::angka(int i)  // Constructor
 {
@@ -30,7 +29,6 @@ angka::~angka()       // Destructor
     delete[]arr;
     cout << "Alamat Array Sudah Dilepaskan" << endl;
 }
-
 
 void angka::cetakData()
 {
@@ -59,9 +57,3 @@ int main()
 
     return 0;
 } // Destructor Dipanggil
-
-
-
-
-
-
